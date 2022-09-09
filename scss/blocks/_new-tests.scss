@@ -1,0 +1,37 @@
+/* NEW TESTS */
+
+.new-tests__wrapper {
+  @include flexbox(space-between, center, row)
+}
+.new-tests__inner {
+  max-width: 584px;
+  padding-top: 82px;
+  padding-bottom: 68px;
+}
+.new-tests__title {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 58px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.new-tests__desc {
+  font-size: 20px;
+  line-height: 34px;
+  margin-top: 0;
+  margin-bottom: 38px;
+  letter-spacing: -0.02em;
+  color: #303030;
+}
+.new-tests__link {
+  width: 180px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  padding: 15px 20px;
+  letter-spacing: -0.01em;
+  color: #000;
+}

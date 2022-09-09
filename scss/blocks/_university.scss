@@ -1,0 +1,19 @@
+/* University section */
+
+.university {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.university__title {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: -0.02em;
+  margin-top: 0;
+  margin-bottom: 43px;
+  color: #000000;
+}
+.university__list {
+  @include flexbox(space-between, center, row);
+  @include list-unstyle;
+}

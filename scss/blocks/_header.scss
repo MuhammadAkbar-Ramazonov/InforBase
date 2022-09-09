@@ -1,0 +1,58 @@
+/* HEADER */
+
+.site-header {
+  padding: 21px 0;
+  border-bottom: 1px solid #F2F2F2;
+}
+.site-header__wrapper {
+  @include flexbox(space-between, center, row);
+}
+.site-header__inner {
+  @include flexbox(space-between, center, row);
+}
+.site-header__language {
+  @include flexbox(center, center, row);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 45px;
+  padding: 0;
+  color: #000000;
+  background-color: transparent;
+  border: 0;
+}
+.site-header__language::after{
+  @include psevdoelements(inline-block, 10px, 6px, "");
+  margin-left: 13px;
+  background-image: url("../../images/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.site-header__login {
+  width: 134px;
+  @include flexbox(center, center, row);
+  font-weight: 400;
+  font-size: 20px;
+  padding: 12px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #000000;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.site-header__login:hover::before{
+  background-image: url("../../images/login-white.svg");
+}
+.site-header__login:active::before{
+  background-image: url("../../images/login.svg");
+}
+.site-header__login::before{
+  @include psevdoelements(inline-block, 18px, 17px, "");
+  margin-right: 10px;
+  background-image: url("../../images/login.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

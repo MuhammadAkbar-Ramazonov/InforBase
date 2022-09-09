@@ -1,0 +1,46 @@
+/* FOOTER */
+
+.site-footer {
+  padding-top: 58px;
+  padding-bottom: 62px;
+  background-color: #292929;
+}
+.site-footer__wrapper {
+  @include flexbox(space-between, start, row);
+}
+.site-footer__list {
+  @include list-unstyle;
+}
+.site-footer__item:not(:last-child) {
+  margin-bottom: 25px;
+}
+.site-footer__link {
+  font-size: 16px;
+  line-height: 19px;
+  color: #969696;
+}
+.site-footer__link:hover{
+  color: #fff;
+}
+.site-footer__item--active{
+  display: flex;
+  align-items: center;
+}
+.site-footer__item--active .site-footer__link:hover{
+  color: #969696;
+}
+.site-footer__item--active::before{
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  background-image: url("../../images/tel.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.site-footer__item--active:nth-child(2):before{
+  background-image: url("../../images/gmail.svg");
+}
+.site-footer__item--active:nth-child(3):before{
+  background-image: url("../../images/telegram.svg");
+}
