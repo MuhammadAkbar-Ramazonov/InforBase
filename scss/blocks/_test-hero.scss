@@ -1,0 +1,46 @@
+.test-hero {
+  padding-top: 39px;
+  padding-bottom: 150px;
+}
+.test-hero__wrapper {
+  @include flexbox(space-between, flex-start, row);
+}
+.test-hero__object {
+}
+.test-hero__object-title {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: -0.01em;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #000000;
+}
+.test-hero__object-wrapper {
+}
+.test-hero__list {
+}
+.test-hero__item {
+}
+.test-hero__text {
+}
+.test-hero__desc {
+}
+.test-hero__class {
+}
+.test-hero__class-title {
+}
+.test-hero__class-wrapper {
+}
+.test-hero__img {
+}
+.test-hero__class-list {
+}
+.test-hero__class-item {
+}
+.test-hero__class-item-link {
+}
+.test-hero__class-inner {
+}
+.test-hero__class-link {
+}
