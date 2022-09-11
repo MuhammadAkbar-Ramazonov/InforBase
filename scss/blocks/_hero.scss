@@ -1,5 +1,8 @@
 /* HERO */
 
+.hero{
+  background-color: #fff;
+}
 .hero__wrapper {
   @include flexbox(space-between, center, row);
 }

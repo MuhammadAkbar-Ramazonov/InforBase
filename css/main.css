@@ -389,7 +389,7 @@ body {
   padding: 0;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: #FAFAFA;
   overflow-x: hidden;
 }
 
@@ -428,6 +428,7 @@ body {
 /* HEADER */
 .site-header {
   padding: 21px 0;
+  background-color: #fff;
   border-bottom: 1px solid #F2F2F2;
 }
 
@@ -546,6 +547,10 @@ body {
 }
 
 /* HERO */
+.hero {
+  background-color: #fff;
+}
+
 .hero__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -719,6 +724,10 @@ body {
 }
 
 /* NEW TESTS */
+.new-tests {
+  background-color: #fff;
+}
+
 .new-tests__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -867,8 +876,10 @@ body {
 
 /* University section */
 .university {
+  margin-bottom: 100px;
   padding-top: 48px;
   padding-bottom: 48px;
+  background-color: #fff;
 }
 
 .university__title {

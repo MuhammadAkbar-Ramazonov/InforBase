@@ -1,5 +1,8 @@
 /* NEW TESTS */
 
+.new-tests{
+  background-color: #fff;
+}
 .new-tests__wrapper {
   @include flexbox(space-between, center, row)
 }
