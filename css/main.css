@@ -427,6 +427,8 @@ body {
 
 /* HEADER */
 .site-header {
+  position: fixed;
+  width: 100%;
   padding: 21px 0;
   background-color: #fff;
   border-bottom: 1px solid #F2F2F2;
@@ -544,6 +546,7 @@ body {
 
 /* HERO */
 .hero {
+  padding-top: 93px;
   background-color: #fff;
 }
 
@@ -908,7 +911,7 @@ body {
 }
 
 .test-hero {
-  padding-top: 39px;
+  padding-top: 132px;
   padding-bottom: 150px;
 }
 
