@@ -611,8 +611,8 @@ body {
   background-color: #fff;
   border: 1px solid #000000;
   border-radius: 5px;
-  -webkit-transition: background 1s ease;
-  transition: background 1s ease;
+  -webkit-transition: background 0.5s ease;
+  transition: background 0.5s ease;
 }
 
 .site-link:hover {
