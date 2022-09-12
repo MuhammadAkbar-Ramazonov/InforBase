@@ -546,6 +546,18 @@ body {
   background-size: contain;
 }
 
+.site-header__login-active:hover::before {
+  background-image: url("../../images/profil-white.svg");
+}
+
+.site-header__login-active:active::before {
+  background-image: url("../../images/profil.svg");
+}
+
+.site-header__login-active::before {
+  background-image: url("../../images/profil.svg");
+}
+
 /* HERO */
 .hero {
   background-color: #fff;
