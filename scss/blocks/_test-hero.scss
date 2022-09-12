@@ -39,6 +39,7 @@
 .test-hero__item {
   display: flex;
   padding: 21px 0 21px 21px;
+  cursor: pointer;
 }
 .test-hero__item:not(:last-child) {
   margin-bottom: 9px;
