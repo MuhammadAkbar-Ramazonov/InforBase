@@ -526,12 +526,8 @@ body {
   border-radius: 5px;
 }
 
-.site-header__login:hover::before {
-  background-image: url("../../images/login-white.svg");
-}
-
 .site-header__login:active::before {
-  background-image: url("../../images/login.svg");
+  background-image: url("../../images/profil.jpg");
 }
 
 .site-header__login::before {
@@ -540,7 +536,7 @@ body {
   height: 17px;
   content: "";
   margin-right: 10px;
-  background-image: url("../../images/login.svg");
+  background-image: url("../../images/profil.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
