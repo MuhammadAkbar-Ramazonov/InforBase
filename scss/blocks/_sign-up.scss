@@ -1,0 +1,56 @@
+/* sugn up start*/
+
+.sign-up-hero {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.sign-up-hero__wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 72px 80px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.sign-up-hero__title{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  margin-top: 0;
+  margin-bottom: 53px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+.site-form__label {
+  margin-bottom: 20px;
+  display: block;
+}
+.site-form__input {
+  display: block;
+  max-width: 540px;
+  width: 100%;
+  border: 1px solid #D2D2D2;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 14px 23px;
+}
+.site-form__desc {
+  display: none;
+}
+.site-form__button {
+  font-family: 'Roboto';
+  font-weight: 400;
+  width: 100%;
+  font-size: 17px;
+  line-height: 21px;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+  background-color: #7500BA;
+  border: 1px solid #9DBC20;
+  border-radius: 10px;
+}
