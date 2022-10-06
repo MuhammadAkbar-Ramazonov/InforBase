@@ -10,6 +10,7 @@
   <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
 </head>
 <body> 
+  
   <!-- site header start -->
   <header class="site-header">
     <div class="container">
@@ -18,7 +19,14 @@
           <img src="./images/InforBase.svg" alt="InforBase's logo">
         </a>
         <div class="site-header__inner">
-          <button class="site-header__language">UZ</button>
+          <select class="site-header__select" name="cars">
+            <option value="UZ">
+              <button class="site-header__language">UZ</button>
+            </option>
+            <option value="RU">
+              <button class="site-header__language">RU</button>
+            </option>
+          </select>
           <button class="site-header__login site-link">Kirish</button>
         </div>
       </div>
@@ -44,7 +52,7 @@
               <input class="site-form__input" type="text" name="user_last_name" placeholder="Familya" minlength="2" aria-label="Please write your Last Name!" required>
               <span class="site-form__desc">Familyangizni kirgazing</span>
             </label>
-   
+            
             <select class="site-form__select" name="cars" id="cars">
               <option value="Shahar/viloyat site-form__input" selected hidden>Shahar/viloyat</option>
               <option value="Toshkent_shahar">Toshkent shahar</option>
@@ -55,7 +63,7 @@
               <option value="Qashqadaryo">Qashqadaryo</option>
               <option value="Xorozm">Xorozm</option>
             </select>
-
+            
             <select class="site-form__select" name="cars" id="cars">
               <option value="Tuman site-form__input" selected hidden>Tuman</option>
               <option value="Zangi Ota">Zangi Ota</option>
@@ -69,7 +77,7 @@
               <option value="303-maktab">303-maktab</option>
               <option value="164-maktab">164-maktab</option>
             </select>
-
+            
             <select class="site-form__select" name="cars" id="cars">
               <option value="Sinf site-form__input" selected hidden>Sinf</option>
               <option value="1-sinf">1-sinf</option>
