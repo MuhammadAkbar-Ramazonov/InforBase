@@ -15,16 +15,6 @@ elItem.forEach(function(link){
 });
 
 
-
-
-
-
-
-
-
-
-
-
 elItem.forEach(function(item){
     item.addEventListener("click" , function(){
         item.classList.add("test-hero__item-active");
