@@ -40,19 +40,19 @@
   width: 481px;
   height: 481px;
 }
-.site-link{
+.hero__link{
   color: #000000;
   background-color: #fff;
   border: 1px solid #000000;
   border-radius: 5px;
   transition: background 0.5s ease;
 }
-.site-link:hover{
+.hero__link:hover{
   color: #fff;
   background-color: #7500ba;
   border: 1px solid #7500ba;
 }
-.site-link:active{
+.hero__link:active{
   color: #000000;
   background-color: #fff;
   border: 1px solid #000000;
