@@ -1,3 +1,5 @@
+/* Test hero */
+
 .test-hero {
   padding-top: 39px;
   padding-bottom: 150px;
@@ -95,7 +97,7 @@
   letter-spacing: -0.01em;
   color: #000000;
 }
-.test-hero__class-list {
+// .test-hero__class-list {
   // display: grid;
   // grid-template-columns: repeat(5, 44px);
   // flex-wrap: wrap;
@@ -103,7 +105,7 @@
   // @include list-unstyle;
   // margin-top: 35px;  
   // margin-bottom: 45px;
-}
+// }
 .test-hero__class-item-link {
   display: flex;
   align-items: center;
